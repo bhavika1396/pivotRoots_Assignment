@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    // background-color: white !important;
+}
+.list-group {
+    display: flex;
+     flex-direction: unset !important; 
+    padding-left: 0;
+    margin-bottom: 0;
+    /* border-radius: 0.25rem; */
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #212529;
+    text-decoration: none;
+    background-color: unset !important; 
+     border: unset !important; 
+}
+.list-group-item-action {
+    width:inherit !important; 
+    color: #495057;
+    text-align: inherit;
+}
