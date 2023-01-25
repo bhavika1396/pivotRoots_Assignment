@@ -1,5 +1,5 @@
 <div class="container-fluid">
-    <div class="row mx-1">
+    <div class="row mx-1" *ngFor="let data of data">
         <div class="col-12">
             <div class="row ">
                 <div class="col-12 pt-4 dragtarget0 px-5"
@@ -27,7 +27,7 @@
                                             border-bottom: 1px solid;
                                             background-size: 16px;">
                                                 <!-- background: url('https://www.charbase.com/images/glyph/9662') no-repeat right; -->
-                                                <option selected>Grade 9</option>
+                                                <option selected>grade 9</option>
                                                 <option value="1">One</option>
                                                 <option value="2">Two</option>
                                                 <option value="3">Three</option>
@@ -149,6 +149,7 @@
                             <!-- </div> -->
 
                         </div>
+
                         <div class="tab-pane" id="monthlyCourses" role="tabpanel">
                             <div class="col-12 px-3">
                                 <div class="row mt-4">
@@ -328,7 +329,7 @@
                                 Now</button>
                         </div>
                         <div class="col-8 mt-4">
-                          
+
                         </div>
                         <div class="col-4 mt-4">
                             <p class="text-white" style="font-size: smaller; float: right;">Refund same day <span
@@ -341,3 +342,77 @@
         </div>
     </div>
 </div>
+
+<!-- <div class="container-fluid">
+    <div class="row mx-3">
+        <div class="col-2">
+            <div class="row text-center " style="background-color: #1e1099;">
+                <div class="col-12 py-3">
+                    Dashboard
+                </div>
+                <div class="col-12 py-3">
+                    Vacancies
+                </div>
+                <div class="col-12 py-3">
+                    Configuration
+                </div>
+                <div class="col-12 py-3">
+                    Activities
+                </div>
+                <div class="col-12 py-3">
+                    Calender
+                </div>
+                <div class="col-12 py-3">
+                    Reports & Analytical
+                </div>
+            </div>
+        </div>
+        <div class="col-10">
+            <div class="row  d-flex align-items-center mt-2">
+                <div class="col-10">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="col-2 text-center">
+                    Filter
+                </div>
+                <div class="col-12 p-0">
+                    <div class="row mt-3">
+                        <div class="col">
+                            <a class="nav-link active" aria-current="page"
+                                style="background-color: #6d55cf;">Screening</a>
+                        </div>
+                        <div class="col">
+                            <a class="nav-link active" aria-current="page"
+                                style="background-color: #6d55cf;">Evaluation</a>
+                        </div>
+                        <div class="col">
+                            <a class="nav-link active" aria-current="page"
+                                style="background-color: #6d55cf;">Verification</a>
+                        </div>
+                        <div class="col">
+                            <a class="nav-link active" aria-current="page"
+                                style="background-color: #6d55cf;">Selection</a>
+                        </div>
+                        <div class="col">
+                            <a class="nav-link active" aria-current="page"
+                                style="background-color: #6d55cf;">Stabalization</a>
+                        </div>
+                        <div class="col">
+                            <a class="nav-link active" aria-current="page"
+                                style="background-color: #6d55cf;">Immigration</a>
+                        </div>
+                        <div class="col">
+                            <a class="nav-link active" aria-current="page"
+                                style="background-color: #6d55cf;">Onboarding</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
